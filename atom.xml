@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>YC</title>
+  
+  
+  <link href="https://a-warm-robot.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://a-warm-robot.github.io/"/>
+  <updated>2021-08-14T17:42:45.035Z</updated>
+  <id>https://a-warm-robot.github.io/</id>
+  
+  <author>
+    <name>Yuncong Yu</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一个仿豆瓣的电影推送平台</title>
+    <link href="https://a-warm-robot.github.io/2021/08/13/56dd300f/"/>
+    <id>https://a-warm-robot.github.io/2021/08/13/56dd300f/</id>
+    <published>2021-08-13T15:16:50.000Z</published>
+    <updated>2021-08-14T17:42:45.035Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;test&lt;/p&gt;
+&lt;p&gt;占个坑先，这个预备记录一次数据库的大作业&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="项目" scheme="https://a-warm-robot.github.io/categories/%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="flask" scheme="https://a-warm-robot.github.io/tags/flask/"/>
+    
+    <category term="sqlserver" scheme="https://a-warm-robot.github.io/tags/sqlserver/"/>
+    
+    <category term="bootstrap4" scheme="https://a-warm-robot.github.io/tags/bootstrap4/"/>
+    
+    <category term="python" scheme="https://a-warm-robot.github.io/tags/python/"/>
+    
+    <category term="前端" scheme="https://a-warm-robot.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello, World</title>
+    <link href="https://a-warm-robot.github.io/2021/02/13/265b86c6/"/>
+    <id>https://a-warm-robot.github.io/2021/02/13/265b86c6/</id>
+    <published>2021-02-13T13:00:11.000Z</published>
+    <updated>2021-08-16T18:07:52.755Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这篇是建站的第一篇文章，用来展示博客可以使用的丰富的内容类型&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="娱乐" scheme="https://a-warm-robot.github.io/categories/%E5%A8%B1%E4%B9%90/"/>
+    
+    
+    <category term="hi" scheme="https://a-warm-robot.github.io/tags/hi/"/>
+    
+  </entry>
+  
+</feed>
