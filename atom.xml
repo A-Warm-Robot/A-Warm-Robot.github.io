@@ -6,7 +6,7 @@
   <link href="https://a-warm-robot.github.io/atom.xml" rel="self"/>
   
   <link href="https://a-warm-robot.github.io/"/>
-  <updated>2021-08-17T11:12:08.842Z</updated>
+  <updated>2021-08-17T14:17:17.502Z</updated>
   <id>https://a-warm-robot.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>一个仿豆瓣的电影推送平台</title>
-    <link href="https://a-warm-robot.github.io/2021/08/13/56dd300f/"/>
-    <id>https://a-warm-robot.github.io/2021/08/13/56dd300f/</id>
+    <link href="https://a-warm-robot.github.io/56dd300f/"/>
+    <id>https://a-warm-robot.github.io/56dd300f/</id>
     <published>2021-08-13T15:16:50.000Z</published>
-    <updated>2021-08-17T11:12:08.842Z</updated>
+    <updated>2021-08-17T14:17:17.502Z</updated>
     
     
     <summary type="html">&lt;p&gt;占个坑先，这个预备记录一次数据库的大作业&lt;/p&gt;</summary>
@@ -45,20 +45,20 @@
   
   <entry>
     <title>Hello, World</title>
-    <link href="https://a-warm-robot.github.io/2021/02/13/265b86c6/"/>
-    <id>https://a-warm-robot.github.io/2021/02/13/265b86c6/</id>
+    <link href="https://a-warm-robot.github.io/265b86c6/"/>
+    <id>https://a-warm-robot.github.io/265b86c6/</id>
     <published>2021-02-13T13:00:11.000Z</published>
-    <updated>2021-08-17T13:06:40.018Z</updated>
+    <updated>2021-08-17T14:34:41.621Z</updated>
     
     
     <summary type="html">&lt;p&gt;这篇是建站的第一篇文章，用来展示博客可以使用的丰富的内容类型&lt;/p&gt;</summary>
     
     
     
-    <category term="娱乐" scheme="https://a-warm-robot.github.io/categories/%E5%A8%B1%E4%B9%90/"/>
+    <category term="Blog" scheme="https://a-warm-robot.github.io/categories/Blog/"/>
     
     
-    <category term="hi" scheme="https://a-warm-robot.github.io/tags/hi/"/>
+    <category term="hexo icarus" scheme="https://a-warm-robot.github.io/tags/hexo-icarus/"/>
     
   </entry>
   
