@@ -6,7 +6,7 @@
   <link href="https://a-warm-robot.github.io/atom.xml" rel="self"/>
   
   <link href="https://a-warm-robot.github.io/"/>
-  <updated>2021-08-17T14:17:17.502Z</updated>
+  <updated>2021-08-17T18:47:09.127Z</updated>
   <id>https://a-warm-robot.github.io/</id>
   
   <author>
@@ -17,14 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>一个仿豆瓣的电影推送平台</title>
-    <link href="https://a-warm-robot.github.io/56dd300f/"/>
-    <id>https://a-warm-robot.github.io/56dd300f/</id>
-    <published>2021-08-13T15:16:50.000Z</published>
-    <updated>2021-08-17T14:17:17.502Z</updated>
+    <title>一个仿豆瓣的电影推送平台（一）| 项目总览</title>
+    <link href="https://a-warm-robot.github.io/66e785f4/"/>
+    <id>https://a-warm-robot.github.io/66e785f4/</id>
+    <published>2021-08-17T17:00:28.000Z</published>
+    <updated>2021-08-17T18:47:09.127Z</updated>
     
     
-    <summary type="html">&lt;p&gt;占个坑先，这个预备记录一次数据库的大作业&lt;/p&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;缘起&quot;&gt;&lt;a href=&quot;#缘起&quot; class=&quot;headerlink&quot; title=&quot;缘起&quot;&gt;&lt;/a&gt;缘起&lt;/h1&gt;&lt;p&gt;电影，一种综合艺术，用强灯光把拍摄的形象连续放映在银幕上，看起来像实在活动的形象&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top hint--error hint--medium hint--rounded hint--bounce&quot; aria-label=&quot;夏征农/陈至立.辞海（第六版）[M].上海辞书出版社.2010
+&quot;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt; 。意大利诗人、电影先驱者乔托·卡努杜在世界电影史上第一次宣称电影是一种表演艺术，并将电影定义为除建筑、音乐、绘画、雕塑、诗和舞蹈以外的“第七艺术”&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top hint--error hint--medium hint--rounded hint--bounce&quot; aria-label=&quot;Ricciotto Canudo.The Birth of the Seventh Art[M].1911
+&quot;&gt;[2]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+&lt;p&gt;而数据库&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top hint--error hint--medium hint--rounded hint--bounce&quot; aria-label=&quot;王珊/萨师煊.数据库系统概论（第五版）.高等教育出版社.2014
+&quot;&gt;[3]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;是“按照数据结构来组织、存储和管理数据的仓库”。是一个长期存储在计算机内的、有组织的、可共享的、统一管理的大量数据的集合。数据库在流媒体中也有这广泛的应用，像数据库在对于像 &lt;/p&gt;
+&lt;p&gt; 这种用户生产内容 (UGC, User-generated Conten)的平台，需要利用数据库来存储电影相关的海量信息以及用户在创作过程中生产的信息。&lt;/p&gt;
+&lt;p&gt;作为一名电影爱好者，十分想通过数据库来复现并二次创作这一系统，实现对主流电影与演员信息的爬取、录入、检索、评价以及用户生产信息的维护。本系列文章记录了一次电影推送平台的实现，旨在实践数据库自顶向下地进行需求分析以及自底向上的进行概念结构设计的过程，并希望能开拓视野，探索并学习主流电影数据库的设计方法。  &lt;/p&gt;</summary>
     
     
     
@@ -48,10 +54,10 @@
     <link href="https://a-warm-robot.github.io/265b86c6/"/>
     <id>https://a-warm-robot.github.io/265b86c6/</id>
     <published>2021-02-13T13:00:11.000Z</published>
-    <updated>2021-08-17T14:34:41.621Z</updated>
+    <updated>2021-08-17T18:42:14.453Z</updated>
     
     
-    <summary type="html">&lt;p&gt;这篇是建站的第一篇文章，用来展示博客可以使用的丰富的内容类型&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;哈喽，这篇是建站的第一篇文章，用来展示博客可以使用的丰富的内容类型，也算是为日后写作的一个速查表yeah！&lt;/p&gt;</summary>
     
     
     
