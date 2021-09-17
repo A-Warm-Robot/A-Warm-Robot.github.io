@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+
+<url>
+ <loc>https://twitter.com</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-09-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://hexo.io/</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-09-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://m.douban.com/movie/%22%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1%22</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-09-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>http://outdatedbrowser.com/</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-09-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://github.com/ppoffice/hexo-theme-icarus</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-09-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://facebook.com</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-09-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://creativecommons.org/</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-09-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://github.com/A-Warm-Robot</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-09-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://creativecommons.org/licenses/by/4.0/</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-09-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+</urlset>
