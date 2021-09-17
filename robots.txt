@@ -4,9 +4,7 @@ Allow: /tags
 Allow: /categories
 Allow: /archives/
 Allow: /about/
-Disallow: /vendors/
-Disallow: /vendors/
-Disallow: /fancybox/
+
 
 Sitemap: https://a-warm-robot.github.io/sitemap.xml
 Sitemap: https://a-warm-robot.github.io/baidusitemap.xml
