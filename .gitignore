@@ -2,5 +2,5 @@
 Thumbs.db
 db.json
 *.log
-node_modules/
+# node_modules/ 暂时不忽略了，因为自己配置过部分文件
 .deploy*/

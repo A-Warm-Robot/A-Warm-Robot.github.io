@@ -13,56 +13,31 @@ password:
 
 ---
 
-
-
 哈喽，这篇是建站的第一篇文章，用来展示博客可以使用的丰富的内容类型，也算是为日后写作的一个速查表yeah！
-
-
 
 <!--more-->
 
 # 这里是背景音乐
 
-
-
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2103901&auto=1&height=66"></iframe>
 
-
-
 直接从网页云网页端生成的html外链代码复制而来：
-
-
 
 ```html
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2103901&auto=1&height=66"></iframe>
 ```
 
-
-
-
-
-
 # 纯MD 语法回顾及写作规范
 
 ## 二级标题示范
 
-
-
 ### 三级标题
-
-
 
 #### 四级标题
 
-
-
 ##### 五级标题
 
-
-
 ###### 六级标题
-
-
 
 正文
 
@@ -70,18 +45,14 @@ password:
 
 Markdown applications don’t agree on how to handle a missing space between the number signs (`#`) and the heading name. For compatibility, always put a space between the number signs and the heading name.
 
-
-
 | ✅ Do this            | ❌ Don't do this     |
 | -------------------- | ------------------- |
 | `# Here's a Heading` | `#Here's a Heading` |
 
-
-
 You should also put blank lines before and after a heading for compatibility.
 
-| ✅ Do this                                                    | ❌ Don't do this                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ✅ Do this                                                           | ❌ Don't do this                                                          |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | `Try to put a blank line before...# Heading...and after a heading.` | `Without blank lines, this might not look right.# HeadingDon't do this!` |
 
 ### Paragraph Best Practices
@@ -89,12 +60,13 @@ You should also put blank lines before and after a heading for compatibility.
 Unless the [paragraph is in a list](https://www.markdownguide.org/basic-syntax/#paragraphs), don’t indent paragraphs with spaces or tabs.
 
 {% raw %}
+
 <div>
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅&nbsp; Do this</th>
-      <th>❌&nbsp; Don't do this</th>
+      <th>✅  Do this</th>
+      <th>❌  Don't do this</th>
     </tr>
   </thead>
   <tbody>
@@ -108,45 +80,34 @@ Unless the [paragraph is in a list](https://www.markdownguide.org/basic-syntax/#
       </td>
       <td>
         <code class="highlighter-rouge">
-        &nbsp;&nbsp;&nbsp;&nbsp;This can result in unexpected
+            This can result in unexpected
         formatting problems.<br><br>
     
-        &nbsp;&nbsp;Don't add tabs or spaces in front of paragraphs.
+          Don't add tabs or spaces in front of paragraphs.
         </code>
       </td>
     </tr>
-  </tbody>
+
+</tbody>
 </table>
 </div>
 {% endraw%}
 
 ## 这里是表格
 
+| 1   | 2   | 3   |
+| --- | --- | --- |
+| 4   |     |     |
+|     | 5   |     |
+|     |     | 6   |
 
-
-| 1    | 2    | 3    |
-| ---- | ---- | ---- |
-| 4    |      |      |
-|      | 5    |      |
-|      |      | 6    |
-
-
-
-## 这里是引用 
-
-
+## 这里是引用
 
 > 好好学习，天天向上！！！
 
-
-
 ### 多行引用
 
-
-
 Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines between the paragraphs.
-
-
 
 ```markdown
 > Dorothy followed her through many of the beautiful rooms in her castle.
@@ -157,18 +118,12 @@ Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines betwee
 The rendered output looks like this:
 
 > Dorothy followed her through many of the beautiful rooms in her castle.
->
+> 
 > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-
-
 
 ### 嵌入引用
 
-
-
 Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest.
-
-
 
 ```markdown
 > Dorothy followed her through many of the beautiful rooms in her castle.
@@ -176,17 +131,11 @@ Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest
 >> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 ```
 
-
-
 The rendered output looks like this:
 
-
-
 > Dorothy followed her through many of the beautiful rooms in her castle.
->
+> 
 > > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-
-
 
 ### 有其他类型的引用
 
@@ -204,27 +153,21 @@ Blockquotes can contain other Markdown formatted elements. Not all elements can 
 The rendered output looks like this:
 
 > #### The quarterly results look great!
->
+> 
 > - Revenue was off the chart.
 > - Profits were higher than ever.
->
+> 
 > *Everything* is going according to **plan**.
 
-
-
 ### Blockquotes Best Practices
-
-
-
-
 
 {% raw %}
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅&nbsp; Do this</th>
-      <th>❌&nbsp; Don't do this</th>
+      <th>✅  Do this</th>
+      <th>❌  Don't do this</th>
     </tr>
   </thead>
   <tbody>
@@ -233,8 +176,7 @@ The rendered output looks like this:
         <code class="highlighter-rouge">
         Try to put a blank line before...<br><br>
 
-
-        &gt; This is a blockquote<br><br>
+        > This is a blockquote<br><br>
     
         ...and after a blockquote.
         </code>
@@ -242,13 +184,13 @@ The rendered output looks like this:
       <td>
         <code class="highlighter-rouge">
         Without blank lines, this might not look right.<br>
-        &gt; This is a blockquote<br>
+        > This is a blockquote<br>
         Don't do this!
         </code>
       </td>
     </tr>
 
-  </tbody>
+</tbody>
 </table>
 
 {% endraw %}
@@ -263,15 +205,9 @@ The rendered output looks like this:
 
 - 很棒
 
-  
-
 ## 这里是分隔线
 
-
-
 ---
-
-
 
 ### Horizontal Rule Best Practices
 
@@ -282,8 +218,8 @@ For compatibility, put blank lines before and after horizontal rules.
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅&nbsp; Do this</th>
-      <th>❌&nbsp; Don't do this</th>
+      <th>✅  Do this</th>
+      <th>❌  Don't do this</th>
     </tr>
   </thead>
   <tbody>
@@ -305,26 +241,19 @@ For compatibility, put blank lines before and after horizontal rules.
         </code>
       </td>
     </tr>
-  </tbody>
+
+</tbody>
 </table>
 
 {% endraw %}
 
-
-
 ## 这里是图片
-
-
 
 ![Mr.Robot](Hello-World/a262a94f4d54399e9505ac0b8b15a2d7.jpg)
 
 ## 这里是URL和Email引用
 
-
-
 To quickly turn a URL or email address into a link, enclose it in angle brackets.
-
-
 
 ```
 [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy")
@@ -344,12 +273,12 @@ I love supporting the **[EFF](https://eff.org)**.
 This is the *[Markdown Guide](https://www.markdownguide.org)*.
 See the section on [`code`](#code).
 
-
 ## 转义字符
 
 You can use a backslash to escape the following characters.
 
 {% raw %}
+
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
@@ -383,7 +312,7 @@ You can use a backslash to escape the following characters.
       <td>brackets</td>
     </tr>
     <tr>
-      <td>&lt; &gt;</td>
+      <td>< ></td>
       <td>angle brackets</td>
     </tr>
     <tr>
@@ -418,14 +347,9 @@ You can use a backslash to escape the following characters.
 </table>
 {% endraw %}
 
-
 # Hexo 对格式文本的延伸
 
-
 ## 这里是画廊
-
-
-
 
 <div class="justified-gallery">
 
@@ -437,10 +361,6 @@ You can use a backslash to escape the following characters.
 ![Leopard](https://cdn.jsdelivr.net/gh/ji2xpro/blog_image/Hexo/Plugins/Other/Gallery/leopard.jpeg)
 
 </div>
-
-
-
-
 
 ```html
 <div class="justified-gallery">
@@ -455,17 +375,9 @@ You can use a backslash to escape the following characters.
 </div>
 ```
 
-
-
-
-
 ## 这里是数学公式
 
-
-
 ### LaTex
-
-
 
 这是一个行内公式：\\(ax^2+bx+c=0\\)。这是另一个行内公式：$ax^2+bx+c>0$。
 
@@ -486,27 +398,18 @@ A =
 \\end{bmatrix}
 \\end{equation}
 
-
-
 ## 这里是代码块
 
-
-
-``` python code https://a-warm-robot.github.io home
+```python
 print('welcome to my blog')
 ```
 
-
-
-
-````
+```
 ``` [language] [title] [url] [link text]
 code snippet
 ```
-````
 
-
-
+```
 其中，各参数意义如下：
 
 - langugae：语言名称，引导渲染引擎正确解析并高亮显示关键字
@@ -518,13 +421,7 @@ url 必须为有效链接地址才会以链接的形式显示在右上角，否�
 
 如果不想填写 title，可以在 language 和 url 之间添加至少三个空格。
 
-
-
-
-
 ## 插入Swig代码
-
-
 
 如果需要在页面内插入 Swig 代码，包括原生 HTML 代码，JavaScript 脚本等，可以通过 raw 标签来禁止 Markdown 引擎渲染标签内的内容。语法如下：
 
@@ -534,11 +431,7 @@ content
 {% endraw %}
 ```
 
-
-
 ## 这里是按钮
-
-
 
 <div class="buttons">
   <button class="button is-info">Info</button>
@@ -546,9 +439,6 @@ content
   <button class="button is-warning">Warning</button>
   <button class="button is-danger">Danger</button>
 </div>
-
-
-
 
 ```html
 <div class="buttons">
@@ -558,8 +448,6 @@ content
   <button class="button is-danger">Danger</button>
 </div>
 ```
-
-
 
 当然还可以为按钮增加事件
 
@@ -580,9 +468,8 @@ function showHitokoto (event) {
     });
 }
 </script>
+
 ## 这里是进度条
-
-
 
 <progress class="progress is-info" value="20" max="100"></progress>
 <progress class="progress is-success" value="40" max="100"></progress>
@@ -590,12 +477,7 @@ function showHitokoto (event) {
 <progress class="progress is-danger" value="80" max="100"></progress>
 <progress class="progress is-info" max="100"></progress>
 
-
-
 ## 这里是标签页
-
-
-
 
 <div class="tabs is-toggle"><ul>
 <li class="is-active"><a onclick="onTabClick(event)">
@@ -643,62 +525,41 @@ function onTabClick (event) {
 }
 </script>
 
-
 ## 这里是彩色突出
-
-
 
 {% raw %}<div class="notification is-info">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div>{% endraw %}
 
-
-
 {% raw %}<div class="notification is-success">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div>{% endraw %}
-
-
 
 {% raw %}<div class="notification is-warning">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div>{% endraw %}
 
-
-
 {% raw %}<div class="notification is-danger">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div>{% endraw %}
-
-
 
 {% raw %}<article class="message is-info"><div class="message-body">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div></article>{% endraw %}
 
-
-
 {% raw %}<article class="message is-success"><div class="message-body">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div></article>{% endraw %}
-
-
 
 {% raw %}<article class="message is-warning"><div class="message-body">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div></article>{% endraw %}
 
-
-
 {% raw %}<article class="message is-danger"><div class="message-body">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div></article>{% endraw %}
 
-
-
 ## 这里是站内链接
-
-
 
 可通过如下语法引入站内文章的地址或链接：
 
@@ -712,8 +573,6 @@ function onTabClick (event) {
 `post_path` 标签将会渲染为文章的地址，即 `permalink`；而 `post_link` 标签将会渲染为链接，可以通过 `title` 指定链接标题。
 
 ## 这里是脚注
-
-
 
 需要**安装**[hexo-reference](https://github.com/kchen0x/hexo-reference)插件！
 
@@ -729,44 +588,32 @@ content
 
 [^4]: footnote content with some [markdown](https://en.wikipedia.org/wiki/Markdown)
 
-
-
 ## 你知道的太多了
 
-
-
 {% raw %}
+
 <style type="text/css">
 .heimu { color: #000; background-color: #000; }
 .heimu:hover { color: #fff; }
 </style>
+
 {% endraw %}
 **iMaeGoo** 出自独立游戏 [World of Goo](https://store.steampowered.com/app/22000/) 里小粘球的叫声，读作 /ɪ'mæɡu/ {% raw %}<span class="heimu">不是爱妹狗啊</span>{% endraw %}，在家里电脑还是个大头（CRT）的时候就在玩了，其实头像也是在当时设定的，一直沿用至今。{% raw %}<span class="heimu">找不到女朋友誓不改头像</span>{% endraw %}
 
-
-
 ## 图片来源声明
+
 <a class="tag is-dark is-medium" href="https://www.vecteezy.com/free-vector/vector-landscape" target="_blank">
-<span class="icon"><i class="fas fa-camera"></i></span>&nbsp;&nbsp;
+<span class="icon"><i class="fas fa-camera"></i></span>  
 Vector Landscape Vectors by Vecteezy
 </a>
 
 # 这里是访客地球
 
-
-
-<script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5fmglyd5vis&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
-
-
+<script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5fmglyd5vis&m=7&c=e63100&cr1=ffffff&f=arial&l=0&bv=90&lx=-420&ly=420&hi=20&he=7&hc=a8ddff&rs=80" async="async"></script>
 
 # 鸣谢
 
+本站的建立离不开许多博主先前的工作，其中特别感谢的有：
 
-
-本站的建立离不开许多博主的先前的工作，其中特别感谢的有：
-
-
-
-- [IMaeGoo]: https://www.imaegoo.com/，能找到的中文最好的icarus魔改博主，本站借鉴了其中icarus 4夜间模式、拼音检索、Bulma美化等部分的内容。
+- [IMaeGoo]: (https://www.imaegoo.com/)，能找到的中文最好的icarus魔改博主，本站借鉴了其中icarus 4夜间模式、拼音检索、Bulma美化等部分的内容。
 - [Xinyu Liu]:(https://www.alphalxy.com/), 很好了实现了icarus 4中文章的布局格式等美化。
-
