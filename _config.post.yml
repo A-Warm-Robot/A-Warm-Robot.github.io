@@ -1,0 +1,62 @@
+sidebar:
+    # Left sidebar configurations
+    left:
+        # Whether the sidebar sticks to the top when page scrolls
+        sticky: true #false
+widgets: 
+    -
+        position: left
+        type: toc
+        index: true
+        collapsed: true
+        depth: 3
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: profile
+        # Author name
+        author: YC
+        # Author title
+        author_title: Undergraduate
+        # Author's current location
+        location: Earth, Solar System
+        # URL or path to the avatar image
+        avatar: /img/avatar.jfif #https://cdn.jsdelivr.net/gh/A-Warm-Robot/A-Warm-Robot.github.io/img/avatar.jpg
+        # Whether show the rounded avatar image
+        avatar_rounded: true
+        # Email address for the Gravatar
+        gravatar: 
+        # URL or path for the follow button
+        follow_link: 'https://github.com/A-Warm-Robot'
+        # Links to be shown on the bottom of the profile widget
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: 'https://github.com/A-Warm-Robot'
+            Facebook:
+                icon: fab fa-facebook
+                url: 'https://facebook.com'
+            Twitter:
+                icon: fab fa-twitter
+                url: 'https://twitter.com'
+            email: 1275534854@qq.com
+            # QQ: 1275534854
+            # Dribbble:
+            #     icon: fab fa-dribbble
+            #     url: 'https://dribbble.com'
+            RSS:
+                icon: fas fa-rss
+                url: 'https://a-warm-robot.github.io/atom.xml'
+
+    -
+        position: left
+        type: categories
+    -
+        position: left
+        type: recent_posts
+    -
+        position: left
+        type: archives
+    -
+        position: left
+        type: tags
